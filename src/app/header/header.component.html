@@ -1,0 +1,15 @@
+<nav>
+  <div class="menu-icon">
+<span class="fas fa-bars"></span></div>
+<div class="logo">
+Good {{greet}}</div>
+<div class="nav-items">
+  <form action="#">
+    <input type="number" name="flid" class="search-data" id="flid" placeholder="Enter Your FLID...."  [(ngModel)]="inputValue" />
+    <button type="submit" class="fas fa-search" (click)="handleSubmit()">Submit</button>
+  </form>
+</div>
+<ng-container>
+  <app-popup *ngIf="isNotificationPopup" (closePopup)="handleToggleToast()"></app-popup>
+</ng-container>
+</nav>

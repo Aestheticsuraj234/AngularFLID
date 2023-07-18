@@ -1,0 +1,8 @@
+.main-home-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    padding: 16px;
+}

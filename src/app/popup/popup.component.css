@@ -1,0 +1,42 @@
+.notfication-toast-container{
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    display: flex;
+    padding: 8px;
+    gap:  8PX;
+    border-radius:10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    pointer-events: all;
+    background-color: #fff;
+    border-bottom: 4px solid #05df05;
+    cursor: pointer;
+}
+.notfication-toast-success{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    height: 100%;
+    pointer-events: all;
+}
+
+.notfication-toast-sucess-icon{
+
+    font-size: 30px;
+  
+}
+
+
+.notfication-toast-sucess-text{
+    font-size: 20px;
+    font-weight: bold;
+    color: #05df05;
+}
